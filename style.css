@@ -1,0 +1,20 @@
+body{
+/* background-color: white; */
+}
+
+
+.left{
+    width: 25VW;
+    /* height: 25vw; */
+    display: flex;
+}
+
+.home li{
+    list-style: none;
+    width: 24px;
+    display:flex;
+}
+.right{
+    width: 75vw;
+    height: 75vw;
+}
