@@ -9,8 +9,10 @@ padding: 0px;
     border-radius: 44px;
     gap: 25px;
     display: flex;
-    margin: 12px;
+    margin: 10px;
     padding: 5px;
+    height: 8vh;
+    color: #b3b3b3;;
 }
 .logo{
     padding-top: 2px;
@@ -23,17 +25,46 @@ padding: 0px;
     display: flex;
     padding-top: 4px;
     gap: 14px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     align-items: center;
     border: 2px solid black;
     border-radius: 3333px;
     padding-bottom: 6px;
-    background:greenyellow;
+    background:black;
+     padding-right: 33px;
+     width: 33vw;
+     color: #b3b3b3  ;
     
 }
-.searchbar{
-    padding-right: 33px;
+.search{
+    margin-left: auto;
+    
 }
+
+
+.log{
+    display: flex;
+    gap: 44px;
+   color: black;
+   margin-left: auto;
+   
+   padding-right: 23px;
+   font-size: 20px;
+   list-style: none;
+   
+}
+.log button{
+    
+    height: 5vh;
+    margin-top: 7px;
+}
+.log li{
+    margin-top: 13px;
+}
+
+
+
+
 .left{
     width: 25VW;
     /* height: 25vw; */
@@ -42,10 +73,10 @@ padding: 0px;
 
 .home li{
     list-style: none;
-    width: 24px;
+    width: 24vw;
     display:flex;
 }
 .right{
     width: 75vw;
-    height: 75vw;
+    height: 75vh;
 }

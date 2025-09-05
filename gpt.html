@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* NAVBAR */
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: #111;
+      color: #fff;
+    }
+
+    .nav img {
+      max-height: 40px;
+      width: auto;
+    }
+
+    .searchbar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #222;
+      padding: 5px 10px;
+      border-radius: 5px;
+      flex: 1; /* take available space */
+      margin: 0 20px;
+    }
+
+    .searchbar img {
+      height: 20px;
+      width: auto;
+    }
+
+    .searchbar .search {
+      flex: 1;
+      color: #bbb;
+    }
+
+    .log button {
+      background: #1db954;
+      border: none;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* CONTAINER */
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .left {
+      flex: 1;
+      background: #181818;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .right {
+      flex: 3;
+      background: #121212;
+      color: white;
+      padding: 20px;
+    }
+
+    /* RESPONSIVE BREAKPOINT */
+    @media (max-width: 768px) {
+      .nav {
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .searchbar {
+        flex: 100%;
+        margin: 10px 0;
+      }
+
+      .container {
+        flex-direction: column;
+      }
+
+      .left, .right {
+        flex: unset;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+    <div class="logo"><img src="logo.svg" alt="logo"></div>
+    <div class="homelo"><img src="home.svg" alt="home"></div>
+
+    <div class="searchbar">
+      <img src="search.svg" alt="search">
+      <div class="search">What do you want to play?</div>
+    </div>
+
+    <div class="log">
+      Premium Support Download |
+      <button><img src="install.svg" alt="install" height="16px"> Install</button>
+    </div>
+  </div>
+
+  <div class="container flex">
+    <div class="left border">
+      <div class="home">
+        <ul>
+          <li>Menu 1</li>
+          <li>Menu 2</li>
+          <li><img src="" alt=""></li>
+        </ul>
+      </div>
+      <div class="library">Library Section</div>
+    </div>
+    <div class="right border">Main Content</div>
+  </div>
+
+</body>
+</html>
