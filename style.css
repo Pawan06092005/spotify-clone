@@ -2,6 +2,7 @@ body{
 /* background-color: white; */
 margin: 0px;
 padding: 0px;
+/* background-color: black; */
 
 }
 .nav {
@@ -13,6 +14,7 @@ padding: 0px;
     padding: 5px;
     height: 8vh;
     color: #b3b3b3;;
+    background:greenyellow;
 }
 .logo{
     padding-top: 2px;
@@ -20,6 +22,7 @@ padding: 0px;
 }
 .homelo{
     padding-top: 4px;
+    cursor: pointer;
 }
 .searchbar{
     display: flex;
@@ -30,12 +33,13 @@ padding: 0px;
     border: 2px solid black;
     border-radius: 3333px;
     padding-bottom: 6px;
-    background:black;
+    background:whitesmoke;
      padding-right: 33px;
      width: 33vw;
-     color: #b3b3b3  ;
+     color: black  ;
     
 }
+
 .search{
     margin-left: auto;
     
@@ -57,26 +61,50 @@ padding: 0px;
     
     height: 5vh;
     margin-top: 7px;
+    border: 3px solid black;
+    border-radius: 44px;
+    cursor: pointer;
+    
 }
 .log li{
     margin-top: 13px;
+    cursor: pointer;
 }
 
+ /* style on main container  */
 
-
+ .main{
+    display: flex;
+    gap: 3px;
+    margin: 0px 10px 10px 10px;
+ }
 
 .left{
-    width: 25VW;
-    /* height: 25vw; */
-    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 75vh;
+    width: 25vw;
+    padding: 10px;
+    
+    
 }
+.box1{
+    border: 2px solid black;
+    height: 15vh;
+    padding: 10px;
+    margin-top: 10px;
+}
+.box2{
+    border: 2px solid black;
+    margin-top: 10px;
+    height: 15vh;
 
-.home li{
-    list-style: none;
-    width: 24vw;
-    display:flex;
+
 }
 .right{
-    width: 75vw;
+    border: 2px solid black;
+    border-radius: 15px;
     height: 75vh;
+    width: 75vw;
+    padding: 10px;
 }
