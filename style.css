@@ -81,15 +81,21 @@ padding: 0px;
 
 .left{
     border: 2px solid black;
-    border-radius: 15px;
+    border-radius: 25px;
     height: 75vh;
     width: 25vw;
     padding: 10px;
     
     
 }
+.leftnav{
+    display: flex;
+    font-size: 22px;
+    margin: 5px;
+}
 .box1{
     border: 2px solid black;
+    border-radius: 25px;
     height: 15vh;
     padding: 10px;
     margin-top: 10px;
@@ -98,7 +104,8 @@ padding: 0px;
     border: 2px solid black;
     margin-top: 10px;
     height: 15vh;
-
+    padding: 10px;
+    border-radius: 25px;
 
 }
 .right{
