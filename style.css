@@ -5,6 +5,10 @@ padding: 0px;
 /* background-color: black; */
 
 }
+.contains{
+    border: 5px solid black;
+    margin: 3px;
+}
 .nav {
     border: 2px solid black;
     border-radius: 44px;
@@ -82,9 +86,10 @@ padding: 0px;
 .left{
     border: 2px solid black;
     border-radius: 25px;
-    height: 75vh;
-    width: 25vw;
+    height:auto;
+    width: auto;
     padding: 10px;
+    font-size: 14px;
     
     
 }
@@ -111,11 +116,14 @@ padding: 0px;
 .right{
     border: 2px solid black;
     border-radius: 15px;
-    height: 75vh;
-    width: 75vw;
+    height: auto;
+    width: auto;
     padding: 10px;
+    font-size: 14px;
 }
 .cards{
     display: flex;
     /* justify-content: space-around; */
+    gap: 10px;
+    justify-content: center;
 }
