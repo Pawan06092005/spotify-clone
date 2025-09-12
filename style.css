@@ -39,8 +39,10 @@ padding: 0px;
     padding-bottom: 6px;
     background:whitesmoke;
      padding-right: 33px;
-     width: 33vw;
+     /* width: 33vw; */
      color: black  ;
+     width: 90vw;
+    margin: 10px auto;
     
 }
 
