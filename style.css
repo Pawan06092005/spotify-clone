@@ -39,9 +39,9 @@ padding: 0px;
     padding-bottom: 6px;
     background:whitesmoke;
      padding-right: 33px;
-     /* width: 33vw; */
+     width: 33vw;
      color: black  ;
-     width: 90vw;
+     /* width: 90vw; */
     margin: 10px auto;
     
 }
@@ -88,8 +88,8 @@ padding: 0px;
 .left{
     border: 2px solid black;
     border-radius: 25px;
-    height:auto;
-    width: auto;
+    height:100vh;
+    width:25vw;
     padding: 10px;
     font-size: 14px;
     
@@ -118,14 +118,16 @@ padding: 0px;
 .right{
     border: 2px solid black;
     border-radius: 15px;
-    height: auto;
-    width: auto;
+    height: 100vh;
+    width: 75vw ;
     padding: 10px;
     font-size: 14px;
+    justify-content: center;
 }
 .cards{
     display: flex;
-    /* justify-content: space-around; */
     gap: 10px;
-    justify-content: center;
+    border: 2px solid black;
+    padding-left: 25px;
+    
 }
